@@ -1,32 +1,41 @@
-# HomepageBusiness
-Solid State by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+## 📌 Website Overview
+This is the homepage for a fictional Australian small business created for FIT1050 Assignment 3. The website was developed using the **Solid State** template from [HTML5 UP](https://html5up.net/solid-state). All content has been customised to fit the business scenario.
 
+## 🔗 Live Website URL
+> [https://your-hosted-url.com](https://your-hosted-url.com)  
+*(Replace this with your real URL once you've uploaded the site)*
 
-After a somewhat extended break from HTML5 UP (to work on a secret-ish new project --
-more on that later!) I'm back with a brand new design: Solid State, a slick new multi-
-pager that combines some of the ideas I've played with over at Pixelarity with an "angular"
-sort of look. Hope you dig it :)
+## 🏷️ Template Information
+- **Template Name:** Solid State
+- **Source:** [https://html5up.net/solid-state](https://html5up.net/solid-state)
+- **Licence:** Creative Commons Attribution 3.0
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## 🧱 Website Features
+- 4 distinct content sections: Hero banner, About section, Services, Contact
+- Custom navigation bar and footer
+- Custom JavaScript interactivity (e.g., scroll-to-top button or modal form)
+- Fully responsive design
+- All content and images have been replaced with original or licenced material
 
-(* = not included)
+## 🧑‍💻 Technologies Used
+- HTML5
+- CSS3
+- JavaScript (Client-side)
+- Google Fonts
+- Responsive layout using Flexbox and media queries
 
-AJ
-aj@lkn.io | @ajlkn
+## 🖼️ Media and Assets
+- Images sourced from [Unsplash](https://unsplash.com) and AI-generated images using DALL·E
+- All assets are either public domain, Creative Commons, or generated with permission
 
+## ⚙️ Hosting Information
+- Website hosted on: [Netlify / GitHub Pages / Monash Web Server]
+- Validated with [W3C HTML Validator](https://validator.w3.org/)
 
-Credits:
+## 📄 Notes
+- No server-side scripting (PHP) is used
+- Navigation links are non-functional per the assignment instructions
+- Files unnecessary for page display have been removed to keep size under 25MB
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## 📚 References
+All references, prompts, tools and sources are listed at the end of the accompanying report PDF.
