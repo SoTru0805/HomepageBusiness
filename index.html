@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 	</head>
 	<body class="is-preload">
 
@@ -20,8 +21,10 @@
 				<!-- NavBar -->
 					<header id="navbar">
 					<div class="nav-inner">
-						<a href="index.html" class="logo">BuzzNest Bags</a>
-						<nav class="nav-links">
+						<a href="index.html" class="logo">
+						<img src="images/Logo.png" alt="BuzzNest Bags Logo">
+						</a>
+					<nav class="nav-links">
 						<ul>
 							<li><a href="#Our Mission">Our Mission</a></li>
 							<li><a href="#Founder">Founders</a></li>
@@ -51,7 +54,7 @@
 							<section id="Our Mission" class="wrapper spotlight style1">
 								<div class="inner">
 									<div class="image">
-										<img src="images/pexels-rdne-10474179.jpg" alt="Artisans working on sustainable bags" />
+										<img src="images/Mission.jpg" alt="Artisans working on sustainable bags" />
 									</div>
 									<div class="content">
 										<h2 class="major">Our Mission</h2>
@@ -65,73 +68,122 @@
 
 
 						<!-- Founder -->
-							<section id="Founder" class="split-layout">
-							<div class="image-side">
-								<img src="images/Owner.jpg" alt="Description" />
-							</div>
-							<div class="content">
-								<h2 class="major">Our Founders’ Journey</h2>
+							<section id="founder" class="wrapper spotlight founder-section">
+							<div class="inner">
+								<div class="image">
+								<img src="images/Owner.jpg" alt="Founder portrait">
+								</div>
+								<div class="content">
+								<h2 class="major">Our Founders' Journey</h2>
 									<p>BuzzNest Bags was brought to life by Emma, a passionate designer and advocate for sustainable living. What began as her solo mission to repurpose leftover textiles soon grew into a thriving brand rooted in purpose and creativity.</p>
-									<p>From her small home studio, Emma crafted each bag with care — believing that fashion could be both beautiful and responsible. Today, BuzzNest continues to reflect her values: empowering local artisans, championing ethical production, and inspiring mindful consumption.</p>
-									<a href="#" class="special">Discover Our Mission</a>
+									<p>From her small home studio, Emma crafted each bag with care — believing that fashion could be both beautiful and responsible. Today, BuzzNest continues to reflect her values: empowering local artisans, championing ethical production, and inspiring mindful consumption.</p>								<a href="#" class="special">Discover Our Mission</a>
 								</div>
 							</div>
 							</section>
 
 
-						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Nullam dignissim</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
-									</div>
+
+						<!-- Empowering Artisans -->
+							<section id="makers" class="wrapper spotlight style2 makers">
+							<div class="inner">
+								<div class="content">
+								<h2 class="major">Empowering Local Artisans</h2>
+								<p>
+									BuzzNest partners with local makers to support fair wages and ethical craftsmanship.
+									When you carry a BuzzNest bag, you're supporting a bigger movement for sustainable fashion and social good.
+								</p>
+								<a href="#" class="special">Meet Our Makers</a>
 								</div>
+								<div class="image">
+								<img src="images/Artisans.jpg" alt="Artisan hand crafting handmade goods">
+								</div>
+							</div>
 							</section>
+
+
 
 				<!-- Feature Collections -->
-					<section id="FeaturedCollections" class="wrapper alt style1">
+						<section id="FeaturedCollections" class="wrapper alt style1">
 						<div class="inner">
 							<h2 class="major">Featured Collection</h2>
-							<p>Each BuzzNest bag is crafted with purpose using reclaimed materials. Our latest collection blends everyday functionality with conscious fashion — perfect for work, travel, and everything in between.</p>
-							
+							<p>
+							Each BuzzNest bag is crafted with purpose using reclaimed materials.
+							Our latest collection blends everyday functionality with conscious
+							fashion — perfect for work, travel, and everything in between.
+							</p>
+
 							<section class="features">
-								<article>
-									<a href="#" class="image"><img src="images/harvest-bloom.jpg" alt="Harvest Bloom Backpack" /></a>
-									<h3 class="major">Harvest Bloom</h3>
-									<p>A vibrant, durable backpack made from recycled canvas. Designed to turn heads while keeping your essentials secure and your values visible.</p>
-									<a href="#" class="special">View Product</a>
-								</article>
+							<article>
+								<a data-fancybox="Featured" href="images/products/image2.png" data-caption="Harvest Bloom" data-width="1200" data-height="800">
+								<img src="images/products/image2.png" alt="Harvest Bloom" class="fancy-thumb" />
+								</a>
+								<h3 class="major">Harvest Bloom</h3>
+								<p>A vibrant, durable backpack made from recycled canvas. Designed to turn heads while keeping your essentials secure and your values visible.</p>
+								<a href="#" class="special">View Product</a>
+							</article>
 
-								<article>
-									<a href="#" class="image"><img src="images/sunleaf-tote.jpg" alt="Sunleaf Carry-All Tote" /></a>
-									<h3 class="major">Sunleaf Tote</h3>
-									<p>This roomy, minimalist tote is your perfect everyday companion — built for eco-conscious errands and casual style alike.</p>
-									<a href="#" class="special">View Product</a>
-								</article>
+							<article>
+								<a data-fancybox="Featured" href="images/products/image3.png" data-caption="Sunleaf Carry All" data-width="1200" data-height="800">
+								<img src="images/products/image3.png" alt="Sunleaf Carry All" class="fancy-thumb" />
+								</a>
+								<h3 class="major">Sunleaf Carry All</h3>
+								<p>This roomy, minimalist tote is your perfect everyday companion — built for eco-conscious errands and casual style alike.</p>
+								<a href="#" class="special">View Product</a>
+							</article>
 
-								<article>
-									<a href="#" class="image"><img src="images/scriptweave.jpg" alt="ScriptWeave Laptop Sleeve" /></a>
-									<h3 class="major">ScriptWeave Sleeve</h3>
-									<p>A sleek, upcycled laptop sleeve offering clean lines and planet-friendly protection for your tech — stylish meets sustainable.</p>
-									<a href="#" class="special">View Product</a>
-								</article>
+							<article>
+								<a data-fancybox="Featured" href="images/products/image4.png" data-caption="ScriptWeave Sleeve" data-width="1200" data-height="800">
+								<img src="images/products/image4.png" alt="ScriptWeave Sleeve" class="fancy-thumb" />
+								</a>
+								<h3 class="major">ScriptWeave Sleeve</h3>
+								<p>A sleek, upcycled laptop sleeve offering clean lines and planet-friendly protection for your tech — stylish meets sustainable.</p>
+								<a href="#" class="special">View Product</a>
+							</article>
 
-								<article>
-									<a href="#" class="image"><img src="images/wanderwrap.jpg" alt="WanderWrap Crossbody Bag" /></a>
-									<h3 class="major">WanderWrap Crossbody</h3>
-									<p>Lightweight, hands-free and perfect for life on the move. Crafted from denim offcuts and lined with repurposed cotton.</p>
-									<a href="#" class="special">View Product</a>
-								</article>
+							<article>
+								<a data-fancybox="Featured" href="images/products/image5.png" data-caption="Stone Blue Daypack" data-width="1200" data-height="800">
+								<img src="images/products/image5.png" alt="Stone Blue Daypack" class="fancy-thumb" />
+								</a>
+								<h3 class="major">Stone Blue Daypack</h3>
+								<p>Lightweight, hands-free and perfect for life on the move. Crafted from denim offcuts and lined with repurposed cotton.</p>
+								<a href="#" class="special">View Product</a>
+							</article>
 							</section>
 
+							<div style="display: none;">
+							<a data-fancybox="Featured" href="images/products/image6.png" data-caption="Golden Trail Pack" data-width="1200" data-height="800">
+								<img src="images/products/image6.png" alt="Golden Trail Pack" class="fancy-thumb" />
+							</a>
+							<a data-fancybox="Featured" href="images/products/image7.png" data-caption="Pastel Bloom Tote" data-width="1200" data-height="800">
+								<img src="images/products/image7.png" alt="Pastel Bloom Tote" class="fancy-thumb" />
+							</a>
+							<a data-fancybox="Featured" href="images/products/image8.png" data-caption="Denim Patch Sling" data-width="1200" data-height="800">
+								<img src="images/products/image8.png" alt="Denim Patch Sling" class="fancy-thumb" />
+							</a>
+							<a data-fancybox="Featured" href="images/products/image9.png" data-caption="Boho Stitch Satchel" data-width="1200" data-height="800">
+								<img src="images/products/image9.png" alt="Boho Stitch Satchel" class="fancy-thumb" />
+							</a>
+							<a data-fancybox="Featured" href="images/products/image10.png" data-caption="EcoZip Daybag" data-width="1200" data-height="800">
+								<img src="images/products/image10.png" alt="EcoZip Daybag" class="fancy-thumb" />
+							</a>
+							<a data-fancybox="Featured" href="images/products/image11.png" data-caption="Patchwork Courier" data-width="1200" data-height="800">
+								<img src="images/products/image11.png" alt="Patchwork Courier" class="fancy-thumb" />
+							</a>
+							<a data-fancybox="Featured" href="images/products/image12.png" data-caption="Urban Roots Pouch" data-width="1200" data-height="800">
+								<img src="images/products/image12.png" alt="Urban Roots Pouch" class="fancy-thumb" />
+							</a>
+							</div>
+
+
 							<ul class="actions">
-								<li><a href="#" class="button">Browse All</a></li>
+							<li><a href="#" class="button">Browse All</a></li>
 							</ul>
 						</div>
-					</section>
+						</section>
+
+
+
+
 
 
 				<!-- Footer -->
@@ -194,6 +246,19 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<script>
+  Fancybox.bind("[data-fancybox='featured']", {
+    Thumbs: {
+      autoStart: true,
+    },
+    Toolbar: {
+      display: ["close", "thumbs"],
+    },
+  });
+</script>
+
+
 
 	</body>
 </html>
