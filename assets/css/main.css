@@ -1,5 +1,4 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
 /*
 	Solid State by HTML5 UP
@@ -28,6 +27,22 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+button,
+input,
+a,
+.navbar,
+.wrapper .content {
+  font-family: 'Poppins', sans-serif;
+}
+
+
 
 body {
 	line-height: 1;
@@ -187,7 +202,7 @@ input, select, textarea {
 				text-decoration: none;
 				border-bottom: 0;
 				display: block;
-				font-family: Raleway, Helvetica, sans-serif;
+				font-family: 'Poppins', sans-serif;
 				font-size: 0.8em;
 				font-weight: 700;
 				letter-spacing: 0.1em;
@@ -259,12 +274,12 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #2e2e2e; /* softer than #000 */
-		font-family: "Raleway", Helvetica, sans-serif;
+		color: #2e2e2e; 
+		font-family: 'Poppins', sans-serif;
 		font-weight: 600;
 		letter-spacing: 0.05em;
 		margin: 0 0 1em 0;
-		text-transform: none; /* keep sentence or title case */
+		text-transform: none; 
 	}
 
 
@@ -2176,7 +2191,7 @@ input, select, textarea {
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: 'Poppins', sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2870,7 +2885,7 @@ input, select, textarea {
 			color: #000000 !important;
 			cursor: pointer;
 			display: inline-block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: 'Poppins', sans-serif;
 			font-size: 0.9em;
 			font-weight: 600;
 			height: 3.2em;
@@ -3122,7 +3137,7 @@ input, select, textarea {
 			}
 
 		#header nav {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: 'Poppins', sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3em;
@@ -3500,7 +3515,7 @@ input, select, textarea {
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+					font-family: 'Poppins', sans-serif;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3628,7 +3643,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: 'Poppins', sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3740,7 +3755,7 @@ input, select, textarea {
 		}
 
 		#wrapper > header p {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: 'Poppins', sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
